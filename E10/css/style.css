@@ -1,0 +1,36 @@
+
+
+a{
+    color:red;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color:maroon;
+    text-decoration: underline;
+}
+li{
+    width: 50%;
+}
+
+ul:not(.normal) li:first-child{
+
+    background-color: blue;
+}
+
+ul:not(.normal) li:last-child{
+    background-color: orange;
+}
+
+ul:not(.normal) li:nth-child(even){
+    background-color: red;
+}
+
+p::first-letter{
+    font-size: 32px;
+}
+
+p::first-line{
+    color: orange;
+}

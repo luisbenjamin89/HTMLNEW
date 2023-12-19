@@ -1,0 +1,19 @@
+h1 {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border : 1px solid black;
+}
+table th, table td{
+    border: 1px solid black;
+    text-align: center;
+    padding:6px ;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

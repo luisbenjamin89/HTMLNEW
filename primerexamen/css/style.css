@@ -1,0 +1,109 @@
+div {
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+.image {
+ 
+    background: white url('../imagenes/logo.png')no-repeat;
+    background-size: contain;
+}
+.nav ul {
+
+    list-style: none;
+    margin: 0%;
+    padding-left: 0;
+    background-color: black;
+}
+
+.nav ul li {
+
+    display: inline-block;
+    /*los elementos se comportan como si fueran en liena pro con heigth y width*/
+    width: 23%;
+    text-align: center;
+   padding-top: 10px;/*marguen interno superior*/
+   padding-bottom: 10px;/*margen interno inferior*/ 
+   color: white; 
+}
+
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.encabezado{
+    color: blue;
+    font-weight: bold;
+    text-align: left
+}
+
+li strong{
+    font-weight: bold;
+    color:black 
+}
+
+
+table{
+    width: 100%;
+   border : 1px solid black;
+}
+
+table th, table td{
+  text-align: center;
+    }
+
+table th{
+    background-color: black;
+    color:white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.form-group{
+    margin-bottom: .110rem;
+}
+.form-label{
+    display: inline;
+    margin-bottom: .110rem;
+}
+.form-control {
+    display: block;
+    width: 30rem;
+}
+
+button[type="submit"]
+{
+    background-color: green;
+}
+
+button[type="reset"]
+{
+    background-color: red;
+}
+
+.footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+
+
+
+ .listafooter ul{
+
+    list-style: none;
+    margin: 0%;
+    padding-left: 0;
+    background-color: black;
+}
+
+ .listafooter li {
+
+    display: inline-block;
+    /*los elementos se comportan como si fueran en liena pro con heigth y width*/
+    width: 3%;
+    text-align: center;
+   padding-top: 10px;/*marguen interno superior*/
+   padding-bottom: 10px;/*margen interno inferior*/ 
+   
+}

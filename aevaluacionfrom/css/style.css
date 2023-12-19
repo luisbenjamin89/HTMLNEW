@@ -1,0 +1,15 @@
+main,header{
+    width:25rem;
+    margin:0 auto;
+}
+.form-group{
+    margin-bottom: .110rem;
+}
+.form-label{
+    display: inline;
+    margin-bottom: .110rem;
+}
+.form-control {
+    display: block;
+    width: 25rem;
+}

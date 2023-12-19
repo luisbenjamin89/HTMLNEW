@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina de tarifas de billetes de tren">
+    <meta name="keywords" content="compra billetes">
+    <meta name="author" content="Benjamin gutierrez">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<header>
+    <h1>venta de billetes</h1>
+</header>
+<main>
+
+    <section><!--seccion d eventa de ticket-->
+
+        <h3 class="encabezado">Gestion de ticket</h3>
+
+        <form action="/contacto" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend class="legend">DATOS PERSONALES</legend>
+                <div class="form-group">
+                    <label for="nombre" class="form-label">NOMBRE</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control"
+                        title="introduzca nombre y apellidos" placeholder="introduzca su nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellido" class="form-label">APELLIDO</label>
+                    <input type="text" name="apellido" id="apellido" class="form-control"
+                        title="introduzca sus apellidos" placeholder="introduzca sus apellidos" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">EMAIL</label>
+                    <input type="email" name="email" id="email" class="form-control" title="introduzca su Email"
+                        placeholder="xxxxxxxx@xxxxx.com" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>DATOS DEL VIAJE</legend>
+
+                <div>
+                    <label for="fecha" class="form-label">Fecha del viaje</label>
+                    <input type="date" name="fecha" id="fecha" class="form-control">
+                </div>
+
+                <div>
+                    <label for="hora" class="form-label">Hora de salida</label>
+                    <select name="so" class="form-control" id="hora">
+                        <option value="">--Eliga hora--</option>
+                        <option value="17:00">17:00 H</option>
+                        <option value="21:00">21:00 H</option>
+                        <option value="23:30">23:30 H</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="categoria" class="form-label">Elegir categoria</label>
+                    <select name="categoria" class="form-control" id="categoria">
+                        <option value="">--Eliga categoria--</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Primera">Primera</option>
+                        <option value="Turista">Turista</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="c_origen" class="form-label">Ciudad origen</label>
+                    <select name="c_origen" class="form-control" id="c_origen">
+                        <option value="">--Eliga ciudad--</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Barcelona">Barcelona</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="c_destino" class="form-label">Ciudad destino</label>
+                    <select name="c_destino" class="form-control" id="c_destino">
+                        <option value="">--Eliga ciudad--</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Barcelona">Barcelona</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Tarjeta</legend>
+
+                <div class="form-group">
+                    <input type="radio" name="Tarjeta" value="m" class="form-control-check" id="Tarjeta">
+                    <label for="Tarjeta" class="form-label">Mastercard<img src="imagene/Master.png"></label>
+                    <input type="radio" name="Tarjeta" class="from-control-check" id="Tarjeta">
+                    <label for="Tarjeta" class="form-label">Visa</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="c_tarjeta" class="form-label">Numero de tarjeta</label>
+                    <input type="text" name="c_tarjeta" id="c_tarjeta" size="3" minlength="4" maxlength="4"
+                        pattern="^[0-9]{4}$" required>
+                    <input type="text" name="c_tarjeta1" id="c_tarjeta1" size="3" minlength="4" maxlength="4"
+                        pattern="^[0-9]{4}$" required>
+                    <input type="text" name="c_tarjeta2" id="c_tarjeta2" size="3" minlength="4" maxlength="4"
+                        pattern="^[0-9]{4}$" required>
+                    <input type="text" name="c_tarjeta3" id="c_tarjeta3" size="3" minlength="4" maxlength="4"
+                        pattern="^[0-9]{4}$" required>
+                </div>
+
+                
+
+            </fieldset>
+
+
+
+
+
+            <div class="form-group">
+                <label for="documento" class="form-label">Subir documento</label>
+                <input type="file" name="documento" id="documento" class="form-control">
+            </div>
+            <div class="form-group">
+                <button type="reset">Borrar</button>
+                <button type="submit">ENVIAR</button>
+            </div>
+
+        </form>
+    </section>
+</main>
+
+<body>
+
+</body>
+
+</html>

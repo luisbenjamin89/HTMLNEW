@@ -1,0 +1,9 @@
+/*podermos hacer nuestras propias clases para modificar estilos de clases de bootstrap*/
+.home-slider{
+    padding-top: 2.5rem;
+}
+section.home-slider .carousel-caption{
+    bottom: 10%;
+    }
+   
+  

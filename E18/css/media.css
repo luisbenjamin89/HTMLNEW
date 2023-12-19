@@ -1,0 +1,5 @@
+/*hago que las imaguenes se adapten al contenedor*/
+.img-fluid{
+    max-width:100%;
+    height:auto;
+    } 

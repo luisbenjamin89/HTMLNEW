@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head><!--Emcabezado del documento HTMl-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pagina de tarifas de company transportation,tarifas,envio">
+    <meta name="keywords" content="company transportation,tarifas,envio">
+    <meta name="author" content="company transportation">
+    <link rel="stylesheet" href="css/style.css">
+    <title>company transportation</title>
+</head>
+
+<body>
+    <header><!--Encabezado de la pagian HTML-->
+
+        <div class="image">
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li>HISTORIA</li>
+                <li>TARIFAS</li>
+                <li>SERVICIOS</li>
+                <li>CONTACTO</li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main><!--parte principal de la pagina HTML-->
+
+        <section><!--Dividiendo la pagina en secciones-->
+            <h1 class="encabezado">Tarifas</h1>
+            <article>
+                <p>A continuación reproducimos nuestras tarifas de envío a las distintas zonas en la que muestra
+                    compañía
+                    puede
+                    ofrecerle servicio:</p>
+
+                <h2 class="encabezado">Zonas de envío</h2>
+                <ul>
+                    <li><strong>Zona A:</strong> Peninsula, Ceuta, Mella, Islas Canarias y Baleares</li>
+                    <li><strong>Zona B:</strong> Unión Europea
+                        <ol>
+                            <li><strong>Zona B1:</strong> Francia, Portugal,Alemania</li>
+                            <li><strong>Zona B2:</strong> Bélgica, Gran Bretaña, Irlanda y países nórdicos.</li>
+                            <li><strong>Zona B3:</strong> Resto de la Unión Europea</li>
+                        </ol>
+                    </li>
+
+                    <li><strong>Zona C:</strong> Africa, América</li>
+                    <li><strong>Zona D:</strong> Resto de continentes y masas terrestres</li>
+                </ul>
+            </article>
+            <article>
+                <h2 class="encabezado">Tabla de tarifas</h2>
+                <table>
+
+
+
+                    <tr>
+                        <th>Por Kgr.</th>
+                        <th>ZONA A</th>
+                        <th>ZONA B</th>
+                        <th>ZONA C</th>
+                        <th>ZONA D</th>
+                    </tr>
+                    <tr>
+                        <th> &gt;24h </th>
+                        <td>15€</td>
+                        <td>30€</td>
+                        <td>45€</td>
+                        <td>60€</td>
+                    </tr>
+                    <tr>
+                        <th> &lt;24h </th>
+                        <td>15€</td>
+                        <td>30€</td>
+                        <td>45€</td>
+                        <td>60€</td>
+                    </tr>
+                    <tr>
+                        <th>48/96h</th>
+                        <td>5€</td>
+                        <td>10€</td>
+                        <td colspan="2">15€</td>
+
+                    </tr>
+
+                </table>
+            </article>
+        </section>
+
+        <section><!--Dividiendo la pagina en secciones-->
+
+            <h3 class="encabezado">contacto</h3>
+
+            <form action="/contacto" method="post" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <label for="nombre" class="form-label">NOMBRE Y APELLIDO</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control"
+                        title="introduzca nombre y apellidos" placeholder="Benjamin" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">EMAIL</label>
+                    <input type="email" name="email" id="email" class="form-control" title="introduzca su Email"
+                        placeholder="benjamingutierrez89@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje" class="form-label">MENSAJE</label>
+
+                    <textarea name="mensaje" class="form-control" id="mensaje" minlength="5" cols="30"
+                        rows="3"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="documento" class="form-label">Subir documento</label>
+                    <input type="file" name="documento" id="documento" class="form-control">
+                </div>
+                <div class="from-group">
+                    <button type="reset">RESET</button>
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer> <!--pie de pagina HTML-->
+
+        <nav  class=" footer listafooter">
+            <p><strong>Copany transportation</strong>.Poligono la maluenda 777-777-000 Saraqusta </p>
+
+            <ul>
+                <li> <a href="#" > <img  src="imagenes/fb.png" alt="facebook"> </a> </li>
+                <li ><a href="#" > <img src="imagenes/twitter.png" alt="twitter"> </a></li>
+                <li ><a href="#" > <img  src="imagenes/google.png" alt="google"> </a></li>
+                <li ><a href="#" > <img src="imagenes/linkedin.png" alt="linkedin"> </a></li>
+            </ul>
+
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>

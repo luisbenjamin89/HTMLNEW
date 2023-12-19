@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;/*estilo de letra*/
+}
+body{
+    margin: 0%;/*quetamos margen al body para que quede pegado*/
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: Georgia, 'Times New Roman', Times, serif;/*cambiamos tipografia*/
+}
+
+.header {
+    background-color: blueviolet;
+    
+    font-weight: 600;/*grosor del trazo de la letra*/
+}
+
+
+.header .nav a {
+    color: white;
+    text-transform: uppercase;
+    /*texto en mayusculas*/
+    text-decoration: none;
+    /*quitamos el subrrayado*/
+}
+
+.nav ul {
+
+    list-style: none;
+    /*quitamos todos los estilos de lista*/
+    margin: 0%;
+    padding-left: 0;/*quitamos el margen izquierdo de lista*/
+}
+
+.nav ul li {
+
+    display: inline-block;
+    /*los elementos se comportan como si fueran en liena pro con heigth y width*/
+    width: 33%;
+    text-align: center;
+    padding-top: 10px;/*marguen interno superior*/
+    padding-bottom: 10px;/*margen interno inferior*/
+    
+}
+
+.main{
+  margin: 0 16px ;
+}
+
+.main a {
+    color:fuchsia;
+    text-decoration: none;
+}
+
+.main a:hover,
+.main a:focus{/*en el caso de tener el raton sobre el elemento o tener el foco
+    cambia la apariencia */
+    color:blueviolet;
+text-decoration:underline;
+}
+
+.main i {
+    color:fuchsia;
+
+}
+

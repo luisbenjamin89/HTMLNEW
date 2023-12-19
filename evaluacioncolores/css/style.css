@@ -1,0 +1,76 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1  {
+color: blue;
+}
+
+p strong{
+    color:#a62b2b
+}
+span.especial {
+    color:purple;
+}
+h2{
+    color: blue;
+}
+
+p a {
+    color:red;
+}
+
+p a em{
+    color:blue;
+}
+
+.destacado{
+    color:yellow;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+table caption{
+    color:blue;
+}
+table{
+    margin:auto;
+}
+
+thead {
+    color:orange;
+}
+
+.especial{
+    color:orange;
+    
+}
+
+tbody th{
+color:red;
+}
+
+tbody td{
+    color:green;
+    }
+
+    tbody td strong{
+        color:orange;
+        }
+
+        tfoot th{
+           color:red; 
+        }
+div p{
+    color:red;
+}
+
+#adicional #especial {
+    color:purple;
+}
+
+#adicional a {
+    color:green;
+}

@@ -1,0 +1,55 @@
+body{
+    padding-top: 3rem;
+}
+div {
+    width: 25rem;
+    height: 25rem;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.relative {
+    position: relative;
+    top: 1rem;
+    /*puedo usar left: rigth: */
+    left: 1rem;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10rem;
+    width: 10rem;
+
+}
+
+.fixe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 3rem;
+    z-index: 1000  /*importancia en el eje z (si los demas elementos pasan sobre elementos con estan clase o si estos elementos pasan encima de los demas )*/
+}
+.izquierda{
+    float: left;
+}
+.derecha{
+    float: right;
+    margin:.5rem
+}
+.justificado{
+    text-align: justify;
+}

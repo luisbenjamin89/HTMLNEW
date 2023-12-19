@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Meta para adaptarnos a un metodo responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--menu resposive-->
+    <header class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                JoGeek
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+
+        <nav class="nav-links">
+            <a href="/">inicio</a>
+            <a href="#contacto">contacto</a>
+            <a href="#porfolio">portfolio</a>
+            <a href="#donde">Donde estamos</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="carousel">
+            <picture><!-- Utilizamos HTML5 pra incluir una imagen -->
+                <!-- Utilizamos una media para cargar una imagen para escritorio -->
+                <source srcset="https://dummyimage.com/1920x1200/000/fff" media="(min-width: 1200px)" class="img-fluid">
+                <source srcset="https://dummyimage.com/1200x800/000/fff" media="(min-width: 768px)" class="img-fluid">
+                <!-- la imagen por defecto para movil-->
+                <img src="https://dummyimage.com/768x480/000/fff" alt="" class="img-fluid">
+            </picture>
+        </section>
+        <section>
+            <div class="container">
+                <h1>Sistema responsive básico</h1>
+                <p>Ejemplo con grid de móvil y escritorio</p>
+                <div class="row">
+                    <div class="col-4">
+                        <h2>Columna 1</h2>
+                        <img src="https://dummyimage.com/400x300/000/fff&text=xdlol" alt="" class="img-fluid" style="border: 5px dotted rgba(255, 255, 255, 0.411);">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum aut quaerat enim ullam, sint nisi mollitia fugiat rerum vero! Eius reiciendis expedita odit ut animi, molestiae vero sapiente et?</p>
+                    </div>
+                    <div class="col-4">
+                        <h2>Columna 2</h2>
+                        <img src="https://dummyimage.com/400x300/000/fff&text=xdlol" alt="" class="img-fluid" style="border: 5px dotted rgba(255, 255, 255, 0.411);">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum aut quaerat enim ullam, sint nisi mollitia fugiat rerum vero! Eius reiciendis expedita odit ut animi, molestiae vero sapiente et?</p>
+                    </div>
+                    <div class="col-4">
+                        <h2>Columna 3</h2>
+                        <img src="https://dummyimage.com/400x300/000/fff&text=xdlol" alt="" class="img-fluid" style="border: 5px dotted rgba(255, 255, 255, 0.411);">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum aut quaerat enim ullam, sint nisi mollitia fugiat rerum vero! Eius reiciendis expedita odit ut animi, molestiae vero sapiente et?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio placeat voluptatum totam illo eius, tenetur dignissimos provident excepturi, blanditiis magni dolorum mollitia, obcaecati similique quae sunt repellat dolorem atque dolores?</p>
+                    </div>
+                </div>
+            </div>
+        </section>>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E6 Imagenes</title>
+    <style>
+        img {
+            width: 100%;
+        }
+
+        .row {
+            margin-left: -16px;
+            margin-right: -16px;
+            clear: both;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .col {
+            width: 50%;
+            float: left;
+        }
+
+        .col-33 {
+            width: 33.333333%;
+            float: left;
+        }
+
+        .col-25 {
+            width: 25%;
+            float: left;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            background-color: darkgray;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Imágenes</h1>
+    <div class="container">
+        <!-- Creo un contenedor de fila-->
+        <div class="row">
+            <p>Nuestra primera imagen.</p>
+            <!-- Creo un contenedor de columna-->
+            <div class="col">
+                <img src="img/desert1.jpg" alt="Imagen desierto">
+            </div>
+            <!-- Creo otro contenedor de columna -->
+            <div class="col">
+                <img src="img/desert4.jpg" alt="Otra imagen">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-33">
+                <img src="img/desert2.jpg" alt="Imagen desierto">
+            </div>
+            <div class="col-33">
+                <img src="img/desert3.jpg" alt="Imagen desierto">
+            </div>
+            <div class="col-33">
+                <img src="img/desert5.jpg" alt="Imagen desierto">
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <img src="img/desert7.jpg" alt="Imagen desierto">
+            </div>
+
+            <div class="col-25">
+                <img src="img/desert4.jpg" alt="Imagen desierto">
+            </div>
+
+            <div class="col-25">
+                <img src="img/desert7.jpg" alt="Imagen desierto">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

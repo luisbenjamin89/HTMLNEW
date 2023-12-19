@@ -1,0 +1,37 @@
+.bg-vs-primary{
+background-color: rgb(23, 33, 139);
+}
+
+.logo-navbar {
+    height: 2rem;
+}
+.home-diaposiva{
+    padding-top: 2.5rem;
+}
+.bg-blue {
+    background-color: blue;
+    color:white;
+    text-align: center;
+   
+}
+.viejesfrec{
+    padding-top: 3rem;
+    margin-bottom:2rem;
+}
+.tituloblan{
+    color:blue;
+    text-align: center;
+
+}
+h2,p {
+ text-align: center;
+}
+
+.stylecol{
+    padding:0;
+}
+.imagenes{
+    border-radius:1rem;
+    padding-top: 0.5rem;
+}
+

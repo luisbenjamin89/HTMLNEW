@@ -1,0 +1,42 @@
+div {
+    margin-bottom: 1rem;
+    height: 30rem;
+}
+.background{
+    background: #6e6e7d url('../img/bg1.jpg')no-repeat;
+background-color: #6e6e7d;
+background-image: url('../img/bg1.jpg');
+background-repeat: no-repeat;
+}
+
+.background2 {
+    /* Propiedades por separado*/
+    background-color: #6E6E7D;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+}
+/*contain fuerza que se vea la imagen completa dentro de la caja*/
+.bg-fit-to-box{
+    background-size: contain;
+}
+/*fuerza que no se vea el fondo de la caja ajustando el zoom de la imagen*/
+.bg-cover-complete-box
+{
+    background-size: cover;
+}
+
+.bg-left-center{
+    background-position: 0 50%;
+}
+
+.bg-right-center{
+    background-position: 100 50%;
+}
+
+.bg-center {
+    background-position: center center;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+}

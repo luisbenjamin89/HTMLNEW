@@ -1,0 +1,35 @@
+.box{
+    background-color: grey;
+    border-style: dashed;
+    width: 22rem;
+    margin: auto;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.form-grup{
+    margin-bottom: .125rem;
+
+}
+.form-label{
+    display: inline;
+    margin-bottom: .125rem;
+}
+.form-control {
+    display: block;
+    width: 15rem;
+}
+
+button[type="submit"]
+{
+    background-color: green;
+}
+.legend{
+    border-style:ridge;
+}
+button[type="reset"]
+{
+    background-color: yellow;
+}

@@ -1,0 +1,20 @@
+
+/*estoy cambiando el tamaño de la tipografia de todo el documento*/
+body{
+    font-size: 18px;
+}
+
+
+.comentario{
+    color:violet;
+}
+
+ol>li,/*aplicando hijos directos*/
+h1,
+h2{
+    color:red;
+}
+
+li{
+    color:green;
+}

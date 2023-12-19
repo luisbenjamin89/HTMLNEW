@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades HTML/CSS</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 15px;
+        }
+        h1 {
+            text-transform: uppercase;
+        }
+        h2 {
+            text-decoration: underline;
+        }
+        div {
+            background-color: maroon;
+            min-height: 2rem;
+            margin-bottom: 1rem;
+        }
+        div p {
+            text-align: center;
+        }
+        div>div {
+            /* hijo directo de cualquier div */
+            background-color: purple;
+        }
+        b {
+            color: rgb(22, 223, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidades</h1>
+    <h2>Unidades absolutas</h2>
+    <p>Tienen una correspondencia física con el "mundo real".<br>px, cm, mm, pc (picas), pt (puntos)</p>
+    <div style="width:200px">
+        <p>200px</p>
+    </div>
+    <div style="width:5cm">
+        <p>5cm</p>
+    </div>
+    <div style="width:200pt">
+        <p>200pt</p>
+    </div>
+    <h2>Unidades porcentuales</h2>
+    <p>Unidades relativas al espacio disponible por un elemento, dentro de un elemento superior.</p>
+    <div style="width:75%">
+        <p>75%</p>
+        <div style="width:75%">
+            <p>75%</p>
+        </div>
+    </div>
+    <h2>Unidades relativas</h2>
+    <p>En el caso de los rem corresponde la unidad de medida al ancho base de la caja de la letra "m" en el <b>
+            :root</b> o <b>html</b>. Así en caso de cambiar el tamaño de la tipografía cambia todo el tamaño de los
+        elementos en la misma proporción.</p>
+    <p>En html por defecto la tipografía es de 16px.</p>
+    <div style="width:20rem">
+        <p>20rem</p>
+    </div>
+    <div style="width:320px">
+        <p>320px <br>(comparación)</p>
+    </div>
+    <h2>Unidades viewport</h2>
+    <p>Medida relativa al área visible del navegador. Se mide en porcentajes del área visible.</p>
+    <div style="width:75%">
+        <p>75%</p>
+        <div style="width:75vw">
+            <p>75vw</p>
+        </div>
+    </div>
+    <div style="height:25vh">
+        <p>25vh</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

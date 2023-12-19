@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E12-formulario basico</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+    <h1>Formulario basico</h1>
+    <div class="box">
+        <form action="/contacto" method="post" enctype="multipart/form-data">
+            <!--campo oculto con informaicon que se envia para se ve en el body-->
+            <input type="hidden" name="hora" value="13:41">
+            <fieldset>
+                <legend class="legend">DATOS PERSONALES</legend>
+                <div class="from-grup">
+                    <label for="nombre" class="form-label">NOMBRE</label>
+                    <input type="text" name="nombre" id="nombre" class="from-control" title="introduzca su nombre"
+                        value="Benjamin" readonly>
+                </div>
+
+                <div class="from-grup">
+                    <label for="apellidos" class="form-label">APELLIDO</label>
+                    <input type="text" name="apellidos" id="apellidos" class="from-control"
+                        placeholder="intrudzca su apellido">
+                </div>
+
+                <div class="from-grup">
+                    <label for="contrasena" class="form-label">CONTRASEÑA</label>
+                    <input type="password" name="contrasena" id="contrasena" class="from-control" maxlength="8">
+                </div>
+
+                <div>
+                    <label for="email" class="form-label">EMAIL</label>
+                    <input type="email" name="email" id="email" class="from-control" placeholder="xxxxxxxx@xxx">
+                </div>
+
+                <div>
+                    <label for="fecha" class="form-label">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha" class="from-control">
+                </div>
+                <div>
+
+                    <label for="select" class="form-label">PROVINCIA</label>
+                    <select name="select" class="from-control" id="select">
+                        <option>--Elija provincia--</option>
+                        <option value="zaragoza">zaragoza</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Valencia">Valencia</option>
+                    </select>
+                </div>
+
+                <div>
+
+                    <label for="situacion" class="form-label">Situcion lavoral</label>
+                    <select name="situcion" class="from-control" size="3" id="situacion" required>
+                        <option value="1">Desempleado</option>
+                        <option value="2">Estudiando</option>
+                        <option value="3">ocupado</option>
+                    </select>
+                </div>
+
+
+                <div>
+
+                    <label for="so" class="form-label">sistemas operativos</label>
+                    <select name="so" class="from-control" size="3" id="so" multiple>
+                        <option value="w">windows</option>
+                        <option value="L">Linux</option>
+                        <option value="M">Mac</option>
+                        <option value="a">Androit</option>
+                    </select>
+                </div>
+
+
+                <div>
+
+                    <label for="carnet" class="form-label">carnet de conducir</label>
+                    <select name="carnet" class="from-control" id="carnet">
+                        <optgroup label="Moto">
+                            <option value="a1">A1</option>
+                            <option value="a2">A2</option>
+                        </optgroup>
+
+                        <optgroup label="Aoutomovil">
+                            <option value="b1">B1</option>
+                            <option value="b2">B2</option>
+                        </optgroup>
+
+
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <div class="from-grup">
+                <fieldset>
+                    <legend class="legend">GENERO</legend>
+                    <input type="radio" name="GENERO" value="m" class="from-control-check" id="m">
+                    <label for="m" class="form-label">MUJER</label>
+                    <input type="radio" name="GENERO" class="from-control-check" id="H">
+                    <label for="H" class="form-label">HOMBRE</label>
+
+                </fieldset>
+            </div>
+            <div class="from-grup">
+                <fieldset>
+                    <legend class="legend">IDEOMAS QUE CONOCE</legend>
+                    <input type="checkbox" name="es" class="from-control-check" id="es" required>
+                    <label for="es" class="form-label">ESPAÑOL</label>
+                    <input type="checkbox" name="en" class="from-control-check" id="en">
+                    <label for="en" class="form-label">INGLES</label>
+                    <input type="checkbox" name="fr" class="from-control-check" id="fr">
+                    <label for="fr" class="form-label">FRANCES</label>
+                </fieldset>
+            </div>
+
+
+            <div class="from-grup">
+                <label for="CV" class="form-label">Curriculum en PDF</label>
+                <input type="file" name="CV" id="CV" class="from-control">
+            </div>
+
+            <div class="from-grup">
+                <label for="comentarios" class="form-label">COMENTARIOS</label>
+
+                <textarea name="camentarios" class="form-control" id="comentarios" minlength="5" cols="30"
+                    rows="5"></textarea>
+            </div>
+
+            <div class="from-grup">
+                <input type="checkbox" name="lopd" class="from-control-check" id="lopd" required>
+                <label for="lopd" class="form-label">Estoy de acuerdo con la <a href="politica-privaciondad.html"
+                        target="_blank">Politica de privacidad</a></label>
+            </div>
+            <div class="from-grup">
+                <button type="reset">RESET</button>
+                <button type="submit">ENVIAR</button>
+            </div>
+
+
+        </form>
+    </div>
+
+    
+
+</body>
+
+</html>
