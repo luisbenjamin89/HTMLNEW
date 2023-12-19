@@ -14,7 +14,7 @@ $lista= "<ol>";
         foreach($canales['channels'] as $subcanales)
         {
             $lista.= "<ul>";
-            $lista.=  "<li>{$subcanales['name'] } <img style='width:2rem' src= {$subcanales['logo']  } ></li>";
+            $lista.=  "<li>{$subcanales['name'] } <a  href={$subcanales['web'] }> <img style='width:2rem' src= {$subcanales['logo']  } > </a></li>";
             $lista.=  " </ul>";
         }
     }
