@@ -97,7 +97,7 @@ function factura (array $facturacion , array $productos):string
 {
 
     $form="<form  action='negocio.php' method='POST'> <h3>facturacion de tienda </h3> <fieldset>
-                <legend >FACTURA:</legend><div > <ol>";
+                <legend >FACTURA:</legend>";
 
 
     foreach ($facturacion as $producto =>$contenido)
@@ -105,12 +105,12 @@ function factura (array $facturacion , array $productos):string
 
        $value =$productos[$producto]['precio'] ;
        $sudtotal= (int)$contenido * $value ;
-       $TOTAL=+$sudtotal;
-        $form .= "<label>$contenido  -  $producto A $value  SUBTUTAL = $sudtotal </label> <br> <label>Total= $TOTAL</label>";
+        $TOTAL += $sudtotal;
+        $form .= "<label>$contenido  -  $producto A $value  SUBTUTAL = $sudtotal </label> <br>";
 
     }
 
-
+    $form.="<label>TOTAL= $TOTAL </label> <br></fieldset></form>";
 
 
     return $form;
