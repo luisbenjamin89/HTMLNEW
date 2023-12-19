@@ -105,7 +105,8 @@ function factura (array $facturacion , array $productos):string
 
        $value =$productos[$producto]['precio'] ;
        $sudtotal= (int)$contenido * $value ;
-        $form .= "<label>$contenido  -  $producto A $value  SUBTUTAL = $sudtotal </label> <br>";
+       $TOTAL=+$sudtotal;
+        $form .= "<label>$contenido  -  $producto A $value  SUBTUTAL = $sudtotal </label> <br> <label>Total= $TOTAL</label>";
 
     }
 
