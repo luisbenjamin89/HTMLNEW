@@ -1,0 +1,42 @@
+.bg-vs-primary {
+    background-color: white;
+}
+
+.logo-navbar {
+    height: 2rem;
+}
+
+.home-diaposiva {
+    padding-top: 3.5rem;
+}
+
+.noticias {
+    text-align: center;
+    
+}
+.botonews{
+margin-top: 1rem;
+    width:100%;
+}
+
+.novedades{
+    padding-top: 1.5rem;
+    text-align: center;
+}
+.bg-grey{
+    background-color:grey;
+  
+}
+.empresa{
+    padding-top: 1.5rem;
+}
+
+.text{
+    text-decoration: underline;
+    color: white;
+    
+}
+.iconos
+{
+    color: black;
+}
